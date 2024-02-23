@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Agendamento</title>
+    <style>
+        fieldset {
+            margin: 15px 0;
+            border-radius: 10px;
+            height: auto;
+            width: 30%;
+        }
+        
+        body {
+            background-color: rgb(210, 204, 238);
+        }
+        
+        img {
+            position: absolute;
+            top: 220;
+            left: 670;
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <img src="https://imgs.search.brave.com/K-qQZPiwWa6QtIclRTiRHD7zxN7A7s65Afj444BumJA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTEudGVub3IuY29t/L20vaHozc29la1Mx/UDBBQUFBQy9maWNh/LWluc2NyaXRvLWlu/c2NyZXZhLXNlLmdp/Zg.gif">
+    <h1>AGENDE SUA CONSULTA</h1>
+    <fieldset>
+        <legend><strong style="color: rgb(55, 55, 211);"> Agendamento</strong></legend>
+        <form title="Contato e agendamento" method="post">
+            <label>Nome Completo: </label><input type="text" name="name"><br>
+            <label>Contato: </label><input type="number" name="phone"><br>
+            <label>Email:</label> <input type="email" name="email"><br>
+            <label>Serviços: </label>
+            <select name="role">
+        <option value="Clinica geral">Clinia geral</option>
+        <option value="Psicologia">Psicologia</option>
+        <option value="Pediatria">Pediatria</option>
+        <option value="Oftalmologia">Oftalmologia</option>
+    </select><br>
+            <label>Data e hora da consulta: </label><input type="datetime-local" id="datetime-agenda" name="horas"><br>
+            <label>Assunto: </label><input type="text" name="text"><br>
+            <label>Mensagem: </label><input textarea><br>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </fieldset>
+    <h3><strong style="color: rgb(0, 0, 0);">LOCALIZAÇÃO DA CLÍNICA</strong></h3><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.867332990485!2d-0.14580138422929978!3d51.5133947796365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760554fb92df53%3A0xb8c06e51219b20f1!2sThe%20Shard!5e0!3m2!1sen!2suk!4v1645270456199!5m2!1sen!2suk"
+        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <footer>
+        <P>Site:DEVS.SAÚDE; 2024</P>
+    </footer>
+</body>
+
+</html>
